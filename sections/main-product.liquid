@@ -462,8 +462,17 @@
                 </div>
 
                 <div>
-                  <label for="custom-text">Your Notes</label>
-                  <input type="textbox" id="custom-text" form={{product_form_id}} name="properties[Your Notes]">
+                  <label for="custom-option">Your Options</label>
+                  <select id="custom-option" form={{product_form_id}} name="properties[Your option]">
+                                     <option value="Round">Round</option>
+                                     <option value="Square">Square</option>
+
+                  </select>
+                </div>
+
+                <div>
+                  <label for="box">Select Box</label>
+                  <input type="checkbox" id="box" value="yes" form={{product_form_id}} name="properties[Your option]"></div>
                 </div>
 
                 <div>
