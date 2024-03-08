@@ -457,8 +457,18 @@
              
              
                 <div>
-                  <label for="custom-name">Your Name on T-shirt</label>
-                  <input type="text" id="custom-name" form={{product_form_id}} name="properties[your name]">
+                  <label for="custom-name">Your Name </label>
+                  <input type="text" id="custom-name" form={{product_form_id}} name="properties[Your Name]">
+                </div>
+
+                <div>
+                  <label for="custom-text">Your Notes</label>
+                  <input type="textbox" id="custom-text" form={{product_form_id}} name="properties[Your Notes]">
+                </div>
+
+                <div>
+                  <label for="custom-modal">Your modal</label>
+                  <input type="text" id="custom-modal" form={{product_form_id}} name="properties[Your modal]">
                 </div>
                 
                 {%- when 'buy_buttons' -%}
