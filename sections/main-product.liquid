@@ -455,8 +455,12 @@
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
              
-             <h1>Test</h1>
              
+                <div>
+                  <label for="custom-name">Your Name on T-shirt</label>
+                  <input type="text" id="custom-name" form={{product_form_id}} name="properties[your name]">
+                </div>
+                
                 {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,
@@ -720,7 +724,7 @@
         });
       });
     </script>
-
+     
     {%- liquid
       if product.selected_or_first_available_variant.featured_media
         assign seo_media = product.selected_or_first_available_variant.featured_media
