@@ -6,15 +6,15 @@
         "slide_y7N7C4": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/womens-green-turtleneck_925x_03ab44a7-da15-4007-81d9-702d8ef2bca4.jpg",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/home_banner_main_2_1_1.webp",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
@@ -24,36 +24,18 @@
         "slide_V7GmCg": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bangle-bracelet-with-feathers_925x_674431dd-fc77-4019-a95c-879ee9381f22.jpg",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/home_banner_Nov_15_1_1.webp",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cdCydF": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/inspired-woman_925x_482f8029-9adb-46ea-ad98-5629cfaf61d3.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -95,7 +77,6 @@
       "block_order": [
         "slide_y7N7C4",
         "slide_V7GmCg",
-        "slide_cdCydF",
         "slide_pVeXrf",
         "slide_nJUDKK"
       ],
