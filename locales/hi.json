@@ -146,6 +146,12 @@
       "copy_to_clipboard": "लिंक की प्रतिलिपि करें",
       "share_url": "जोड़ना",
       "success_message": "लिंक को क्लिपबोर्ड पर कॉपी किया गया"
+    },
+    "slider": {
+      "of": "का",
+      "next_slide": "दाईं ओर स्लाइड करें",
+      "previous_slide": "बाईं ओर स्लाइड करें",
+      "name": "स्लाइडर"
     }
   },
   "products": {
@@ -173,7 +179,84 @@
       "sort_button": "क्रम से लगाना",
       "sort_by_label": "इसके अनुसार क्रमबद्ध करें:",
       "to": "को",
-      "clear_filter": "फ़िल्टर हटाएँ"
+      "clear_filter": "फ़िल्टर हटाएँ",
+      "filter_and_operator_subtitle": "सभी का मिलान करें",
+      "apply": "आवेदन करना",
+      "clear": "स्पष्ट",
+      "clear_all": "सभी हटाएं",
+      "from": "से"
+    },
+    "product": {
+      "add_to_cart": "कार्ट में जोड़ें",
+      "choose_options": "विकल्प चुनें",
+      "choose_product_options": "{{ product_name }} के लिए विकल्प चुनें",
+      "description": "विवरण",
+      "inventory_in_stock": "स्टॉक में",
+      "inventory_in_stock_show_count": "{{ quantity }}",
+      "inventory_low_stock": "कम स्टॉक",
+      "inventory_low_stock_show_count": "कम स्टॉक: {{ quantity }} बचा है",
+      "inventory_out_of_stock": "स्टॉक ख़त्म",
+      "inventory_out_of_stock_continue_selling": "स्टॉक में",
+      "sku": "एसकेयू",
+      "on_sale": "बिक्री",
+      "product_variants": "उत्पाद प्रकार",
+      "media": {
+        "gallery_viewer": "गैलरी दर्शक",
+        "load_image": "गैलरी दृश्य में छवि {{ index }} लोड करें",
+        "load_model": "गैलरी दृश्य में 3D मॉडल {{ index }} लोड करें",
+        "load_video": "गैलरी दृश्य में वीडियो {{ index }} चलाएं",
+        "image_available": "छवि {{ index }} अब गैलरी दृश्य में उपलब्ध है",
+        "open_media": "मोडल में मीडिया {{ index }} खोलें",
+        "play_model": "3D व्यूअर चलाएं",
+        "play_video": "वीडियो चलाएं"
+      },
+      "quantity": {
+        "label": "मात्रा",
+        "input_label": "{{ product }} के लिए मात्रा",
+        "increase": "{{ product }} के लिए मात्रा बढ़ाएँ",
+        "decrease": "{{ product }} के लिए मात्रा कम करें",
+        "minimum_of": "न्यूनतम {{ quantity }}",
+        "maximum_of": "अधिकतम {{ quantity }}",
+        "multiples_of": "{{ quantity }} की वृद्धि",
+        "in_cart_html": "कार्ट में <span class=\"quantity-cart\">{{ quantity }}<\/span>",
+        "note": "मात्रा नियम देखें"
+      },
+      "volume_pricing": {
+        "title": "वॉल्यूम मूल्य निर्धारण",
+        "note": "वॉल्यूम मूल्य निर्धारण उपलब्ध है",
+        "minimum": "{{ quantity }} +",
+        "price_at_each": "{{ price }} \/ईए पर"
+      },
+      "pickup_availability": {
+        "view_store_info": "स्टोर जानकारी देखें",
+        "check_other_stores": "अन्य दुकानों पर उपलब्धता की जाँच करें",
+        "pick_up_available": "पिकअप उपलब्ध है",
+        "pick_up_available_at_html": "पिकअप <span class=\"color-foreground\">{{ location_name }}<\/span> पर उपलब्ध है",
+        "pick_up_unavailable_at_html": "पिकअप फ़िलहाल <span class=\"color-foreground\">{{ location_name }}<\/span> पर उपलब्ध नहीं है",
+        "unavailable": "पिकअप उपलब्धता लोड नहीं की जा सकी",
+        "refresh": "ताज़ा करना"
+      },
+      "price": {
+        "from_price_html": "{{ price }} से",
+        "regular_price": "नियमित रूप से मूल्य",
+        "sale_price": "विक्रय कीमत",
+        "unit_price": "यूनिट मूल्य"
+      },
+      "share": "इस उत्पाद को साझा करें",
+      "sold_out": "बिक गया",
+      "unavailable": "अनुपलब्ध",
+      "vendor": "विक्रेता",
+      "value_unavailable": "{{ option_value }} - अनुपलब्ध",
+      "variant_sold_out_or_unavailable": "वैरिएंट बिक चुका है या अनुपलब्ध है",
+      "video_exit_message": "{{ title }} उसी विंडो में पूर्ण स्क्रीन वीडियो खोलता है।",
+      "view_full_details": "पूरी जानकारी देखें",
+      "xr_button": "अपने स्थान में देखें",
+      "xr_button_label": "अपने स्थान में देखें, आइटम को संवर्धित वास्तविकता विंडो में लोड करता है",
+      "include_taxes": "टैक्स शामिल।",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">शिपिंग की<\/a> गणना चेकआउट के समय की जाती है।"
+    },
+    "modal": {
+      "label": "मीडिया गैलरी"
     }
   },
   "templates": {
@@ -291,7 +374,135 @@
       "title": "आदेश {{ name }}",
       "date_html": "{{ date }} को रखा गया",
       "cancelled_html": "ऑर्डर {{ date }} को रद्द कर दिया गया",
-      "cancelled_reason": "कारण: {{ reason }}"
+      "cancelled_reason": "कारण: {{ reason }}",
+      "billing_address": "बिल भेजने का पता",
+      "payment_status": "भुगतान की स्थिति",
+      "shipping_address": "शिपिंग पता",
+      "fulfillment_status": "पूर्ति स्थिति",
+      "discount": "छूट",
+      "shipping": "शिपिंग",
+      "tax": "कर",
+      "product": "उत्पाद",
+      "sku": "एसकेयू",
+      "price": "कीमत",
+      "quantity": "मात्रा",
+      "total": "कुल",
+      "total_refunded": "वापसी की गई है",
+      "fulfilled_at_html": "पूर्ण {{ date }}",
+      "track_shipment": "शिपमेंट ट्रैक करना",
+      "tracking_url": "ट्रैकिंग लिंक",
+      "tracking_company": "वाहक",
+      "tracking_number": "ट्रैकिंग नंबर",
+      "subtotal": "उप-योग",
+      "total_duties": "कर्तव्य"
+    },
+    "orders": {
+      "title": "आदेश इतिहास",
+      "order_number": "आदेश",
+      "order_number_link": "आदेश संख्या {{ number }}",
+      "date": "तारीख",
+      "payment_status": "भुगतान की स्थिति",
+      "fulfillment_status": "पूर्ति स्थिति",
+      "total": "कुल",
+      "none": "आपने अभी तक कोई ऑर्डर नहीं दिया है."
+    },
+    "recover_password": {
+      "title": "अपना पासवर्ड रीसेट करें",
+      "subtext": "हम आपका पासवर्ड रीसेट करने के लिए आपको एक ईमेल भेजेंगे",
+      "success": "हमने आपको आपका पासवर्ड अपडेट करने के लिए एक लिंक के साथ एक ईमेल भेजा है।"
+    },
+    "register": {
+      "title": "खाता बनाएं",
+      "first_name": "पहला नाम",
+      "last_name": "उपनाम",
+      "email": "ईमेल",
+      "password": "पासवर्ड",
+      "submit": "बनाएं"
+    },
+    "reset_password": {
+      "title": "खाता पासवर्ड रीसेट करें",
+      "subtext": "नया पारण शब्द भरे",
+      "password": "पासवर्ड",
+      "password_confirm": "पासवर्ड की पुष्टि कीजिये",
+      "submit": "पासवर्ड रीसेट"
+    }
+  },
+  "newsletter": {
+    "label": "ईमेल",
+    "success": "सब्सक्राइब करने के लिए धन्यवाद",
+    "button_label": "सदस्यता लें"
+  },
+  "accessibility": {
+    "skip_to_text": "इसे छोड़कर सामग्री पर बढ़ने के लिए",
+    "skip_to_product_info": "उत्पाद जानकारी पर जाएं",
+    "close": "बंद करना",
+    "unit_price_separator": "प्रति",
+    "vendor": "विक्रेता:",
+    "error": "गलती",
+    "refresh_page": "किसी चयन को चुनने से पूरा पृष्ठ ताज़ा हो जाता है।",
+    "link_messages": {
+      "new_window": "एक नई विंडो में खुलता है।",
+      "external": "बाहरी वेबसाइट खोलता है."
+    },
+    "loading": "लोड हो रहा है...",
+    "total_reviews": "कुल समीक्षाएँ",
+    "star_reviews_info": "{{ rating_value }} {{ rating_max }}",
+    "collapsible_content_title": "संक्षिप्त करने योग्य सामग्री",
+    "complementary_products": "पूरक उत्पाद"
+  },
+  "blogs": {
+    "article": {
+      "blog": "ब्लॉग",
+      "read_more_title": "और पढ़ें: {{ title }}",
+      "comments": {
+        "one": "{{ count }} टिप्पणी",
+        "other": "{{ count }} टिप्पणियाँ"
+      },
+      "moderated": "कृपया ध्यान दें, टिप्पणियों को प्रकाशित करने से पहले अनुमोदित किया जाना आवश्यक है।",
+      "comment_form_title": "एक टिप्पणी छोड़ें",
+      "name": "नाम",
+      "email": "ईमेल",
+      "message": "टिप्पणी",
+      "post": "तेज़ी से टिप्पणी करना",
+      "back_to_blog": "ब्लॉग पर वापस जाएँ",
+      "share": "इस लेख का हिस्सा",
+      "success": "आपकी टिप्पणी सफलतापूर्वक पोस्ट कर दी गई! धन्यवाद!",
+      "success_moderated": "आपकी टिप्पणी सफलतापूर्वक पोस्ट कर दी गई. हम इसे थोड़ी देर में प्रकाशित करेंगे, क्योंकि हमारा ब्लॉग संचालित है।"
+    }
+  },
+  "onboarding": {
+    "product_title": "उदाहरण उत्पाद शीर्षक",
+    "collection_title": "आपके संग्रह का नाम"
+  },
+  "gift_cards": {
+    "issued": {
+      "how_to_use_gift_card": "उपहार कार्ड कोड ऑनलाइन या क्यूआर कोड इन-स्टोर का उपयोग करें",
+      "title": "यहां {{ shop }} के लिए आपका {{ value }} उपहार कार्ड शेष है!",
+      "subtext": "आपका उपहार कार्ड",
+      "gift_card_code": "उपहार कार्ड कोड",
+      "shop_link": "ऑनलाइन स्टोर पर जाएँ",
+      "add_to_apple_wallet": "Apple वॉलेट में जोड़ें",
+      "qr_image_alt": "क्यूआर कोड - उपहार कार्ड भुनाने के लिए स्कैन करें",
+      "copy_code": "उपहार कार्ड कोड कॉपी करें",
+      "expiration_date": "समाप्त हो रहा है {{ expires_on }}",
+      "copy_code_success": "कोड सफलतापूर्वक कॉपी किया गया",
+      "expired": "खत्म हो चुका"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "मैं इसे उपहार के रूप में भेजना चाहता हूं",
+      "expanded": "उपहार कार्ड प्राप्तकर्ता प्रपत्र का विस्तार किया गया",
+      "collapsed": "उपहार कार्ड प्राप्तकर्ता प्रपत्र संक्षिप्त हो गया",
+      "email_label": "प्राप्तकर्ता का ई - मेल",
+      "email_label_optional_for_no_js_behavior": "प्राप्तकर्ता ईमेल (वैकल्पिक)",
+      "email": "ईमेल",
+      "name_label": "प्राप्तकर्ता का नाम (वैकल्पिक)",
+      "name": "नाम",
+      "message_label": "संदेश (वैकल्पिक)",
+      "message": "संदेश",
+      "max_characters": "{{ max_chars }} वर्ण अधिकतम",
+      "send_on_label": "आगे भेजें (वैकल्पिक)"
     }
   }
 }
