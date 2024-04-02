@@ -114,6 +114,17 @@
                   {% else %}
                   {{ product.price }}
                   {% endif %}
+
+
+
+                {% case product="Cake" %}
+                  {% when 'cake' %}
+                     this is cake
+                 {% when 'Oil' %}
+                     this is not acake
+                 {% else %}
+                     this is default 
+                {% endcase %}
                 
               </div>
               {%- if product.quantity_price_breaks_configured? -%}
