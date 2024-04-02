@@ -108,6 +108,12 @@
                   show_badges: true,
                   price_class: 'price--large'
                 -%}
+
+                {% if product.price > 20 %}
+                  <span style="color:red;">SALE</span>
+                  {% else %}
+                  {{ product.price }}
+                  {% endif %}
               </div>
               {%- if product.quantity_price_breaks_configured? -%}
                 <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
